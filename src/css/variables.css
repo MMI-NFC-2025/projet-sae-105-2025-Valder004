@@ -1,0 +1,28 @@
+/* Police */
+:root {
+  /* Mode 1 */
+  /* number */
+  --citation: 1rem;
+  --texte: 1.25rem;
+  --sous-titre: 1.375rem;
+  --titre: 1.875rem;
+}
+/* Marge */
+:root {
+  /* Mode 1 */
+  /* number */
+  --photo: 1.625rem;
+  --texte: 1.625rem;
+  --saut-à-la-ligne: 4.0625rem;
+}
+/* Color */
+:root {
+  /* Mode 1 */
+  /* color */
+  --background: #1e0d29;
+  --contact: #735984;
+  --footer: #000000;
+  --footer-texte: #c3c3c3;
+  --header: #0d1b2a;
+  --typo: #ffffff;
+}

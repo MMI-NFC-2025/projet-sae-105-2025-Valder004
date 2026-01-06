@@ -1,0 +1,73 @@
+
+.footer {
+    background-color: var(--footer);
+    padding-bottom: 50px;
+}
+
+
+.footer_propos, .footer_glossaire, .footer_contact, .footer_autres-projets {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    color: var(--typo);
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.footer_réseaux {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 24px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+    gap: 51px;
+}
+
+.réseaux_facebook, .réseaux_insta, .réseaux_twitter, .réseaux_youtube {
+    margin-right: 51px;
+}
+
+.réseaux_facebook{
+    width: 35px;
+    height: 35px;
+}
+.réseaux_insta{
+    width: 35px;
+    height: 35px;
+}
+
+.réseaux_twitter{
+    width: 39px;
+    height: 35px;
+}
+
+.réseaux_youtube{
+    width: 48px;
+    height: 35px;
+}
+
+.footer_mention {
+    color: var(--typo);
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.footer_description {
+    color: var(--footer-texte);
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 27px;
+}
+
+.footer_mail {
+    color: var(--typo);
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.footer_groupe {
+    color: var(--typo);
+    font-size: 20px;
+    margin-left: 25px;
+}

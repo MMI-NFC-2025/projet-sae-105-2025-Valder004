@@ -1,1 +1,5 @@
-<svg width="42" height="28" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path fill="#fff" d="M0 0H42V28H0z"/><path d="M1.75 1.75h38.5M1.75 14h38.5M1.75 26.25h38.5" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0H42V28H0z"/></clipPath></defs></svg>
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="1" y1="1" x2="23" y2="1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1" y1="8" x2="23" y2="8" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1" y1="15" x2="23" y2="15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

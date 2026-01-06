@@ -1,0 +1,11 @@
+button
+{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+button img {
+    filter: brightness(0) invert(1);
+}

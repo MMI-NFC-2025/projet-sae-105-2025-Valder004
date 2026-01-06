@@ -5,26 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <link rel="stylesheet" href="/src/css/style.css" />
+        <script type="module" src="/src/js/Projet.js"></script>
 </head>
 
 
 <body>
-    <header>
+ <header>
     <div class="header">
-        <p class="header_Fr">Fr</p>
-        <p class="header_En">En</p>
-        <img class="header_menu-open" src="/assets/img/PNG/menu-open1.svg" alt="menu-open">
-        <a href="index.html"><h1 class="header_Titre">JOCELYN BELL BURNELL</h1></a>
+        <div class="header__container">
+            <div class="header__lang">
+                <p class="header_Fr">Fr</p>
+                <p class="header_En">En</p>
+            </div>
+            <button>
+                <span><img class="header__menu" src="/assets/img/PNG/menu-open1.svg" alt="menu-open"> </span>
+            </button>
+        </div>
+        <div class="header__titre">
+            <a href="/en/index.html">
+                <h1 class="header_Titre">JOCELYN BELL BURNELL</h1>
+            </a>
+        </div>
     </div>
-    <nav>
-        <p class="header_Fr">Fr</p>
-        <p class="header_En">En</p>
-        <a href="/fr/article.html" class="menu_Article">Jocelyn Bell Burnell</a>
-        <a href="/fr/decouverte.html" class="menu_Découverte">Les pulsars</a>
-        <a href="/fr/femme.html" class="menu_Femmes-de-science">Femmes de science dans la littérature</a>
-        <a href="/fr/livre.html" class="menu_Livre">Livre en lien</a>
-        <a href="/fr/film.html" class="menu_Film">Film en lien</a>
-        <a href="/fr/frise.html" class="menu_Frise-chronologique">Frise chronologique</a>
+    <nav class="menu">
+            <ul>
+                <li class="nav__item"><a href="/fr/article.html" class="nav__link">Jocelyn Bell Burnell</a></li>
+                <li class="nav__item"><a href="/fr/decouverte.html" class="nav__link">Les pulsars</a></li>
+                <li class="nav__item"><a href="/fr/femme.html" class="nav__link">Femmes de science dans la littérature</a></li>
+                <li class="nav__item"><a href="/fr/livre.html" class="nav__link">Livre en lien</a></li>
+                <li class="nav__item"><a href="/fr/film.html" class="nav__link">Film en lien</a></li>
+                <li class="nav__item"><a href="/fr/frise.html" class="nav__link">Frise chronologique</a></li>
+            </ul>
     </nav>
 </header>
 <main>

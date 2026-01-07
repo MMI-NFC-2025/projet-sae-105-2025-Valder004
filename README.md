@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : DEROO
+- PRÉNOM : Valentin
+- GROUPE : C1
+- URL du site : https://jocelyn-bell-burnell.valentin-deroo.fr/fr/
+- URL FIGMA :https://www.figma.com/design/ltNUO56q2NQgJzPZ6VcPfZ/Maquettes-projet-individuel-%E2%80%94-pr%C3%A9nom-NOM--Copy-?node-id=3701-113&p=f&m=dev

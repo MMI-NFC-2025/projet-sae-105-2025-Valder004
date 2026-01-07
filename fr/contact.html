@@ -44,10 +44,26 @@
         <h1 class="titre_contact">Pour me contacter</h1>
         <div class="contact_formulaire">
             <h2 class="formulaire_intro">Pour toute demande, veuillez remplir ce formulaire de contact :</h2>
-            <p class="formulaire_nom">Nom:</p>
-            <p class="formulaire_prenom"></p>
-            <p class="formulaire_email">mail:</p>
-            <p class="formulaire_message">Message:</p>
+            <form class="contact-form">
+                <div class="infos-inputs">
+                    <div class="nom">
+                        <label for="nom">Nom : </label>
+                        <input type="text" class="formulaire_nom" id="nom">
+                    </div>
+                    <div class="prenom">
+                        <label for="prenom">Prénom : </label>
+                        <input type="text" class="formulaire_prenom" id="prenom">
+                    </div>
+                </div>
+                <div class="mail">
+                    <label for="mail">Mail : </label>
+                    <input type="text" class="formulaire_mail" id="mail">
+                </div>
+                <div class="message">
+                    <label for="message">Message : </label>
+                    <textarea name="message" class="formulaire_message" id="message"></textarea>
+                </div>
+            </form>
             <button class="formulaire_bouton">envoyer</button>
         </div>
         <div class="journal">

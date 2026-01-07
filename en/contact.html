@@ -43,11 +43,26 @@
         <h1 class="titre_contact">To contact me</h1>
         <div class="contact_formulaire">
             <h2 class="formulaire_intro">For any request, please fill out this contact form:</h2>
-            <p class="formulaire_nom">Name:</p>
-            <p class="formulaire_prenom">First name</p>
-            <p class="formulaire_email">mail:</p>
-            <p class="formulaire_message">Message:</p>
-            <button class="formulaire_bouton">Send</button>
+            <form class="contact-form">
+                <div class="infos-inputs">
+                    <div class="nom">
+                        <label for="nom">Name : </label>
+                        <input type="text" class="formulaire_nom" id="nom">
+                    </div>
+                    <div class="prenom">
+                        <label for="prenom">First name : </label>
+                        <input type="text" class="formulaire_prenom" id="prenom">
+                    </div>
+                </div>
+                <div class="mail">
+                    <label for="mail">Mail : </label>
+                    <input type="text" class="formulaire_mail" id="mail">
+                </div>
+                <div class="message">
+                    <label for="message">Message : </label>
+                    <textarea name="message" class="formulaire_message" id="message"></textarea>
+                </div>
+            </form>
         </div>
         <div class="journal">
             <h3 class="journal_texte">By Valentin DEROO, MMI student <br> Published on 20/10/2025</h3>

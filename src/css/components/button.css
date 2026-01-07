@@ -6,7 +6,7 @@ button
     cursor: pointer;
 }
 
-button img {
+.header__menu {
     filter: brightness(0) invert(1);
 }
 

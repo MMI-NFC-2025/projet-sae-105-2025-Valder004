@@ -1,85 +1,82 @@
-/* Conteneur principal du carousel */
+/* Carousel Container */
 .carousel {
-    display: flex; /* Utilise flexbox pour aligner les éléments en ligne */
-    align-items: center; /* Centre verticalement les éléments (boutons et conteneur) */
-    gap: 10px; /* Ajoute 10px d'espace entre le bouton, le conteneur et le bouton suivant */
-    padding: 40px 12px; /* Ajoute 40px d'espacement vertical et 24px d'espacement horizontal */
-    width: 100%; /* Le carousel prend toute la largeur disponible */
-    overflow: hidden; /* Masque tout contenu qui dépasse du conteneur */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-/* Styles pour les boutons de navigation (précédent et suivant) */
-.carousel__button {
-
-    background: none; /* Supprime le fond du bouton */
-    border: none; /* Supprime la bordure par défaut du bouton */
-    font-size: 12px; /* Définit la taille des flèches à 20px */
-    cursor: pointer; /* Change le curseur en pointeur pour indiquer que c'est cliquable */
-    padding: 5px 5px; /* Ajoute 5px d'espacement vertical et 10px d'espacement horizontal */
-    flex-shrink: 0; /* Empêche le bouton de rétrécir quand l'espace est limité */
-    transition: opacity 0.3s ease; /* Crée une animation fluide de 0.3s sur l'opacité */
-    min-width: 20px; /* Définit une largeur minimale de 30px pour le bouton */
-    text-align: center; /* Centre le texte (les flèches) dans le bouton */
-}
-
-
-
-/* Conteneur qui affiche les images du carousel */
+/* Carousel container inner */
 .carousel__container {
-    display: flex; /* Utilise flexbox pour aligner les items horizontalement */
-    gap: 10px; /* Ajoute 20px d'espace entre chaque item du carousel */
-    overflow-x: auto; /* Active le scroll horizontal si le contenu dépasse */
-    scroll-behavior: smooth; /* Active le scroll fluide au lieu du saut */
-    flex: 1; /* Permet au conteneur de prendre l'espace disponible */
-    padding: 10px 0; /* Ajoute 10px d'espacement vertical (pour la scrollbar si visible) */
-    scroll-padding: 0 24px; /* Ajoute un padding lors du scroll vers un élément */
-    min-width: 0; /* Permet au conteneur de rétrécir en dessous de sa taille de contenu */
-    width: 100%; /* Le conteneur prend toute la largeur disponible */
-    scroll-snap-type: x mandatory; /* Active le snap scrolling pour afficher une image à la fois */
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 280px;
+    scrollbar-width: none;
 }
 
-/* Masque la scrollbar horizontale sur les navigateurs Chrome/Safari */
 .carousel__container::-webkit-scrollbar {
-    display: none; /* Cache la scrollbar WebKit */
+    display: none;
 }
 
-/* Masque la scrollbar sur tous les navigateurs */
-.carousel__container {
-    -ms-overflow-style: none; /* Cache la scrollbar sur Internet Explorer/Edge */
-    scrollbar-width: none; /* Cache la scrollbar sur Firefox */
-}
-
-/* Styles pour chaque élément du carousel */
+/* Carousel items */
 .carousel__item {
-    display: flex; /* Utilise flexbox pour organiser l'image et le texte */
-    flex-direction: column; /* Organise les enfants verticalement (image en haut, texte en bas) */
-    align-items: center; /* Centre horizontalement l'image et le texte */
-    gap: 10px; /* Ajoute 10px d'espace entre l'image et le texte */
-    flex-shrink: 0; /* Empêche l'item de rétrécir quand on scrolle */
-    width: 100%; /* Définit une largeur de 100% pour afficher une image à la fois */
-    scroll-snap-align: start; /* Aligne l'élément au début du conteneur lors du snap */
-    scroll-snap-stop: always; /* Force l'arrêt du scroll sur cet élément */
+    flex: 0 0 auto;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
-/* Styles pour les images du carousel */
-.carousel__item .projet_img {
-    width: 245px; /* L'image prend toute la largeur du conteneur item (350px) */
-    height: 245px; /* Définit une hauteur fixe de 280px pour l'image */
-    object-fit: cover; /* Remplit l'espace en gardant les proportions (crop si nécessaire) */
-    border-radius: 8px; /* Arrondit les coins de l'image avec un rayon de 8px */
-    display: block; /* Affiche l'image en tant que bloc (élimine l'espacement en ligne) */
+.projet_img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    aspect-ratio: 1 / 1;
+    background-color: #000000;
 }
 
-/* Styles pour les liens de texte du carousel */
-.carousel__item .projet_link {
-    text-align: center; /* Centre le texte du lien */
-    color: var(--typo); /* Utilise la couleur de texte définie dans les variables CSS */
-    text-decoration: none; /* Supprime le soulignement par défaut des liens */
-    font-size: 16px; /* Définit la taille du texte à 16px */
-    transition: opacity 0.3s ease; /* Crée une animation fluide de 0.3s sur l'opacité */
+/* Carousel buttons */
+.carousel__button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
 }
 
-/* Effet au survol du lien */
-.carousel__item .projet_link:hover {
-    opacity: 0.7; /* Réduit l'opacité à 70% quand la souris passe dessus */
+.carousel__button:hover {
+    opacity: 0.7;
+}
+
+.carousel__button--prev{
+    rotate: 180deg;
+}
+
+.carousel__button img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    z-index: 2;
+}
+
+
+/* Link styling */
+.projet_link {
+    color: var(--typo);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.projet_link:hover {
+    opacity: 0.7;
 }

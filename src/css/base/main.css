@@ -93,6 +93,7 @@ h2 {
     margin-left: 25px;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: "B612", sans-serif;
 }
 
 p {
@@ -103,12 +104,14 @@ p {
     margin-left: 25px;
     margin-bottom: 10px;
     margin-right: 26px;
+        font-family: "B612", sans-serif;
 }
 
 h1 {
     font-size: 30px;
     color: var(--typo);
     text-align: center;
+    font-family: "B612", sans-serif;
 }
 
 .contact-form {
@@ -129,7 +132,7 @@ h1 {
     align-items: center;
        padding-left: 10px;
     background-color: var(--contact);
-    width: 341px;
+    width: 300px;
     height: 107px;
     margin-left: 26px;
     margin-right: 26px;
@@ -141,7 +144,7 @@ h1 {
     align-items: center;
     padding-left: 10px;
     background-color: var(--contact);
-    width: 341px;
+    width: 300px;
     height: 48px;
     margin-left: 26px;
     margin-right: 26px;
@@ -153,7 +156,7 @@ h1 {
     align-items: center;
     padding-left: 10px;
     background-color: var(--contact);
-    width: 341px;
+    width: 300px;
     height: 48px;
     margin-right: 26px;
     margin-left: 26px;
@@ -165,7 +168,7 @@ h1 {
     align-items: center;
     padding-left: 10px;
     background-color: var(--contact);
-    width: 341px;
+    width: 300px;
     height: 48px;
     margin-right: 26px;
     margin-left: 26px;
@@ -276,8 +279,8 @@ margin-right: auto;
 .frise_marie-curie-titre, .frise_rosalind-franklin-titre, .frise_marthe-gautier-titre, .frise_lise-meitner-titre, .frise_jocelyn-bell-burnell-titre {
     font-size: 16px;
     color: var(--typo);
-    margin-left: 26px;
-    margin-right: 26px;
+    margin-left: 115px;
+    margin-right: 50px;
     text-align: center;
     margin-top: 10px;
     font-weight: bold;

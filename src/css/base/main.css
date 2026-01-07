@@ -64,15 +64,17 @@ body {
 .frise_description {
     font-size: 16px;
     color: var(--typo);
-    margin-top: 37px;
     line-height: 1.4;
     text-align: center;
-    padding: 30px;
-    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 300px;
     box-sizing: border-box;
     background-color: #000000;
     display: block;
     text-decoration: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .journal_texte {
@@ -89,13 +91,15 @@ h2 {
     font-size: 22px;
     color: var(--typo);
     margin-left: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 p {
     font-size: 20px;
     color: var(--typo);
     line-height: 1.6;
+    margin-top: 5px;
     margin-left: 25px;
     margin-bottom: 10px;
     margin-right: 26px;
@@ -167,3 +171,125 @@ h1 {
     margin-left: 26px;
     border-radius: 20px;
 }
+
+.intro-decouverte {
+    font-size: 20px;
+    color: var(--typo);
+    margin-top: 38px;
+    margin-bottom: 49px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.6;
+}
+
+.intro-decouverte{
+    margin: 0;
+}
+
+.img1_img {
+    width: 341px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.img2_img, .img_convention, .img1-article_image {
+    width: 341px;
+    margin-top: 49px;
+    margin: 0 auto;
+}
+
+.img1_description , .img2_description, .img1-article_description, .img_description {
+    font-size: 16px;
+    color: var(--typo);
+    margin-top: 10px;
+    margin-bottom: 49px;
+    margin-left: 44.5px;
+  
+    line-height: 1.4;
+
+}
+
+.article1_citation, .article2_citation, .article3_citation {
+    font-size: 16px;
+    color: var(--typo);
+    font-style: italic;
+    margin-left: 25px;
+    margin-right: 26px;
+    margin-bottom: 49px;
+    line-height: 1.6;
+}
+
+.intro-femme_texte {
+    font-size: 20px;
+    color: var(--typo);
+    margin-left: 26px;
+    margin-right: 25px;
+    line-height: 1.6;
+}
+
+.article1_titre, .article2_titre, .article3_titre {
+    font-size: 22px;
+    color: var(--typo);
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.article1_img {
+    width: 341px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.article2_img {
+    width: 341px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.article3_img {
+    width: 341px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.frise_marie-curie-img, .frise_rosalind-franklin-img, .frise_marthe-gautier-img, .frise_lise-meitner-img, .frise_jocelyn-bell-burnell-img {
+    width: 245px;
+    margin-top: 10px;
+margin-left: 74px;
+margin-right: auto;
+}
+
+
+.frise_marie-curie-texte, .frise_rosalind-franklin-texte, .frise_marthe-gautier-texte, .frise_lise-meitner-texte, .frise_jocelyn-bell-burnell-texte {
+    font-size: 14px;
+    color: var(--typo);
+    margin-top: 10px;
+    margin-bottom: 49px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.frise_marie-curie-titre, .frise_rosalind-franklin-titre, .frise_marthe-gautier-titre, .frise_lise-meitner-titre, .frise_jocelyn-bell-burnell-titre {
+    font-size: 16px;
+    color: var(--typo);
+    margin-left: 26px;
+    margin-right: 26px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.frise1{
+    width: 100%;
+}
+
+.frise_fleche{
+    width: 25px;
+    margin-left: calc(50% - 15px);
+    filter: brightness(0) invert(1);
+}
+
